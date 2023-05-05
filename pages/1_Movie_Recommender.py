@@ -29,7 +29,7 @@ def recommend(movie):
 
 movie_dict = pickle.load(open('./movies_dict.pkl', 'rb'))
 movies = pd.DataFrame(movie_dict)
-similar = pickle.load(open('.\similar.pkl', 'rb'))
+similar = pickle.load(open('./similar.pkl', 'rb'))
 
 st.title(":red[Movie Recommender System]")
 
